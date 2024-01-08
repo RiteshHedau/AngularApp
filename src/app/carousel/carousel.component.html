@@ -1,0 +1,17 @@
+
+<div>
+    <ngx-slick-carousel class="carousel" [config]="slickConfig">
+      <div ngxSlickItem *ngFor="let prod of WomenProducts" class="carousel-item">
+        <!-- Your card content here -->
+        <div class="card" style="width: 12rem;">
+          <img src="{{prod.img}}" class="card-img-top" alt="...">
+          <span class="heart bi bi-heart"></span>
+          <div class="card-body">
+            <p class="card-title">{{prod.title}}</p>
+            <p class="card-text">collection: {{prod.collection}}</p>
+            <p class="price">{{prod.price}}</p>
+          </div>
+        </div>
+      </div>
+    </ngx-slick-carousel>
+  </div>

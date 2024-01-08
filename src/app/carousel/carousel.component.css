@@ -1,0 +1,52 @@
+/* app.component.css */
+
+.carousel {
+    width: 97%;
+    margin: auto;
+    
+  }
+  
+  .carousel-item {
+    outline: none; /* Remove default outline for better accessibility */
+  }
+  
+  /* Card styles */
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    margin: 2px;
+    padding: 10px;
+    background-color: #fff;
+    height: 23rem;
+  }
+  
+  .card img {
+    max-width: 90%;
+    height: auto;
+    margin-left: 10px;
+  }
+  
+  .heart {
+    position:relative;
+    right: 60px;
+    bottom: 237px;
+    font-size: large;
+  }
+  
+  .card-body {
+    padding: 5px;
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+  
+  .card-text {
+    color: #555;
+  }
+  
+  .price {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
